@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingStart="22dp"
+    android:paddingTop="15dp"
+    android:paddingEnd="22dp"
+    android:paddingBottom="20dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:onClick="backToRentCar"
+            app:srcCompat="@drawable/arrow" />
+
+        <TextView
+            android:id="@+id/nomCarRent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageCarRent"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="25dp"
+        />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="Please select your method of payment :"
+        android:textColor="@color/black" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/visaButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Visa"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/masterButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Master Card"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/paypalButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Paypal"
+            android:textColor="@color/black" />
+    </RadioGroup>
+
+
+
+    <TextView
+        android:id="@+id/textView7"
+        style="@style/LabelAuth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dateStart"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/dateStart"
+        style="@style/Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corners"
+        android:hint="dd-mm-yyyy"
+        android:inputType="date" />
+
+
+
+    <TextView
+        android:id="@+id/textView8"
+        style="@style/LabelAuth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dateEnd"
+        />
+
+    <EditText
+        android:id="@+id/dateEnd"
+        style="@style/Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corners"
+        android:hint="dd-mm-yyyy"
+        android:inputType="date" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/bntRent2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:onClick="reservationCar"
+            android:paddingLeft="50dp"
+            android:paddingTop="17dp"
+            android:paddingRight="50dp"
+            android:paddingBottom="17dp"
+            android:text="@string/rentNow"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            tools:layout_editor_absoluteX="0dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Tunisia drive</string>
+    <string name="onboaring">Find and rental car in easy steps</string>
+    <string name="auth">Welcome to,Tunisia Drive</string>
+    <string name="auth1">Enter you account to continue</string>
+    <string name="email">Email address</string>
+    <string name="password">Password</string>
+    <string name="fPass">Forgot password ?</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="Signup">Sign up</string>
+    <string name="recoverAccount">Recover account</string>
+    <string name="location">Your location</string>
+    <string name="location1">Korba, Nabeul</string>
+    <string name="tBrands">Top Brands</string>
+    <string name="ACNY">Availabble Cars Near You</string>
+    <string name="Profil">Profil</string>
+    <string name="rentNow">Rent Now</string>
+    <string name="dateStart">Date start</string>
+    <string name="dateEnd">Date End</string>
+        <string name="car_image">Car Image</string>
+</resources>

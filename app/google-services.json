@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "430667131572",
+    "project_id": "tunisia-drive",
+    "storage_bucket": "tunisia-drive.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430667131572:android:840ebc84c58872417d85e1",
+        "android_client_info": {
+          "package_name": "com.example.tunisiadrive"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4LhUWrBj7ESUMgrJARCDt1Dmopl3SQmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
